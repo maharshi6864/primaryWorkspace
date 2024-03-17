@@ -1,0 +1,17 @@
+package com.society.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+@org.springframework.stereotype.Controller
+public class OwnerController {
+
+	@GetMapping(value = "/ownerName")
+	public ModelAndView addOwner(@RequestParam int blockId, @RequestParam int floorNumber) {
+		System.out.println(blockId);
+		System.out.println(floorNumber);
+		return new ModelAndView("admin/manageOwner");
+	}
+
+}

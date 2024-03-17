@@ -1,0 +1,5 @@
+package com.society.services;
+
+public interface OwnerService {
+
+}

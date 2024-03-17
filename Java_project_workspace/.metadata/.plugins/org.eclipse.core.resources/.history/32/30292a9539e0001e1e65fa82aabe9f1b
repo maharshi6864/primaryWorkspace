@@ -1,0 +1,18 @@
+package com.society.models;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "SocietyVo")
+public class SocietyVo {
+
+	@Id
+	@Column(name="id")
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int id;
+	
+	
+}

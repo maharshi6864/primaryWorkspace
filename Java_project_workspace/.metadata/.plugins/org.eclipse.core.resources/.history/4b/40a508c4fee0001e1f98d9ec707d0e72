@@ -1,0 +1,29 @@
+package com.society.services;
+
+import com.society.models.SocietyVo;
+import com.society.repository.SocietyDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
+@Service
+@Transactional
+public class SocietyServiceImp implements SocietyService {
+
+    @Autowired
+    private SocietyDao societyDao;
+
+    @Override
+    public void insertSociety(SocietyVo societyVo) {
+        this.societyDao.insertSociety(societyVo);
+    }
+
+    @Override
+    public SocietyVo findById(int id) {
+        List<SocietyVo> list = (List<SocietyVo>) this.societyDao.findById(id);
+        SocietyVo societyVo = list.get(0);
+        return societyVo;
+    }
+}

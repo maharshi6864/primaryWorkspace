@@ -1,0 +1,11 @@
+package com.society.repository;
+
+import com.society.models.OwnerVo;
+
+public interface OwnerDao {
+	
+	void  insertOwner(OwnerVo ownerVo);
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package com.society.models;
+
+public class SocietyVo {
+
+}

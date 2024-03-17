@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<h1>Edit Sub Category</h1>
+<form action="updateSubCategory" method="post">
+    Enter Sub Category: <input type="text" name="subCategoryName" value="{{data[0].sub_category_name}}" required />
+    <br/><br/>
+    Enter Sub Category Description
+    <input type="text" name="subCategoryDes" value="{{data[0].sub_category_description}}" required /> <br/><br/>
+    Select Category
+    <select name="categoryId" required >
+        <option disabled selected>select category</option>
+        {%for cat in cat %}
+        <option value="{{ cat.category_id}}" {%  if cat.category_id==data[0].category_id %}selected{% endif %} />
+        {{ cat.category_name}}
+        </option>
+        {% endfor%}
+    </select>
+    <br/>
+    <br/>
+    <button type="submit">Submit</button>
+</form>
+<br/>
+<a href="/searchSubCategory">
+    <button>back</button>
+</a>
+</body>
+</html>

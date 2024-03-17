@@ -1,0 +1,57 @@
+
+May 10, 2023 15:12:54.52 NEW SESSION
+May 10, 2023 15:12:54.52 [16432:13168:0510/151254.524:ERROR:device_event_log_impl.cc(222)] [15:12:54.523] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+
+May 23, 2023 23:13:11.65 NEW SESSION
+May 23, 2023 23:13:11.65 [12616:17452:0523/231311.654:ERROR:device_event_log_impl.cc(222)] [23:13:11.654] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+May 23, 2023 23:23:42.54 [12616:17452:0523/232342.542:ERROR:service_worker_task_queue.cc(234)] DidStartWorkerFail fheoggkfdfchfphceeifdbepaooicaho: 14
+
+May 25, 2023 16:57:29.81 NEW SESSION
+May 25, 2023 16:57:29.81 [12016:21460:0525/165729.811:ERROR:device_event_log_impl.cc(222)] [16:57:29.810] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+May 25, 2023 16:58:27.99 [12016:21460:0525/165827.991:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:27.99 [12016:21460:0525/165827.992:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.09 [12016:21460:0525/165828.095:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.09 [12016:21460:0525/165828.097:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.14 [12016:21460:0525/165828.145:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.14 [12016:21460:0525/165828.146:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.15 [12016:21460:0525/165828.150:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.15 [12016:21460:0525/165828.155:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.80 [12016:21460:0525/165828.808:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.80 [12016:21460:0525/165828.809:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.81 [12016:21460:0525/165828.813:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.81 [12016:21460:0525/165828.816:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.95 [12016:21460:0525/165828.951:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.95 [12016:21460:0525/165828.952:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.95 [12016:21460:0525/165828.954:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:28.95 [12016:21460:0525/165828.957:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:29.09 [12016:21460:0525/165829.089:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:29.09 [12016:21460:0525/165829.090:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:29.09 [12016:21460:0525/165829.093:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:29.09 [12016:21460:0525/165829.097:ERROR:event_ack_data.cc(40)] StartExternalRequest failed: 2
+May 25, 2023 16:58:30.39 [12016:21460:0525/165830.392:ERROR:service_worker_task_queue.cc(234)] DidStartWorkerFail fheoggkfdfchfphceeifdbepaooicaho: 14
+May 25, 2023 16:59:17.02 [12776:12848:0525/165917.020:ERROR:device_event_log_impl.cc(222)] [16:59:17.020] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+May 25, 2023 16:59:46.60 [6844:8156:0525/165946.602:ERROR:device_event_log_impl.cc(222)] [16:59:46.599] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+May 25, 2023 17:05:37.08 [6844:8156:0525/170537.084:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+May 25, 2023 17:05:37.08 [6844:8156:0525/170537.084:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+May 25, 2023 17:05:37.08 [6844:8156:0525/170537.085:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+May 25, 2023 17:05:37.08 [6844:8156:0525/170537.085:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+
+May 31, 2023 21:57:15.00 NEW SESSION
+May 31, 2023 21:57:15.00 [4788:24776:0531/215715.004:ERROR:device_event_log_impl.cc(222)] [21:57:15.003] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+May 31, 2023 22:22:36.81 [4788:24776:0531/222236.810:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+May 31, 2023 22:22:36.81 [4788:24776:0531/222236.810:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+May 31, 2023 22:22:36.81 [4788:24776:0531/222236.810:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+May 31, 2023 22:22:36.81 [4788:24776:0531/222236.810:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+May 31, 2023 22:32:16.43 [4788:24776:0531/223216.429:ERROR:service_worker_task_queue.cc(234)] DidStartWorkerFail fheoggkfdfchfphceeifdbepaooicaho: 14
+
+Jun 07, 2023 17:24:59.31 NEW SESSION
+Jun 07, 2023 17:24:59.31 [12424:9612:0607/172459.314:ERROR:device_event_log_impl.cc(222)] [17:24:59.315] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Jun 07, 2023 17:24:59.39 [12424:14148:0607/172459.398:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jun 07, 2023 17:25:20.81 [12424:14148:0607/172520.815:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jun 07, 2023 17:26:08.20 [12424:14148:0607/172608.206:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jun 07, 2023 17:37:43.22 [12424:9612:0607/173743.221:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+Jun 07, 2023 17:37:43.22 [12424:9612:0607/173743.221:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+Jun 07, 2023 17:37:43.22 [12424:9612:0607/173743.221:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+Jun 07, 2023 17:37:43.22 [12424:9612:0607/173743.221:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en&dm= (52)
+Jun 07, 2023 17:37:46.33 [12424:9612:0607/173746.332:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+Jun 07, 2023 17:39:30.15 [12424:9612:0607/173930.156:ERROR:service_worker_task_queue.cc(234)] DidStartWorkerFail fheoggkfdfchfphceeifdbepaooicaho: 14

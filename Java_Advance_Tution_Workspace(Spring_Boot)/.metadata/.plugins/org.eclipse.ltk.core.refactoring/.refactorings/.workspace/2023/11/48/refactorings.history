@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Api_Demo&apos; to &apos;Ajax&apos;" description="Rename resource &apos;Api_Demo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Api_Demo" name="Ajax" stamp="1701258299590" updateReferences="true"/>
+</session>

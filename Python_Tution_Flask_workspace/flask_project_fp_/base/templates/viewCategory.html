@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>View Category</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>View Category</h1>
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%for cat_obj in data %}
+          <tr>
+            <td>{{ cat_obj.category_name}}</td>
+            <td>{{ cat_obj.category_description}}</td>
+            <td>
+              <a href="delete?id={{cat_obj. category_id}}"
+                ><button>Delete</button></a
+              >
+              <a href="edit?id={{cat_obj. category_id}}"
+                ><button>Edit</button></a
+              >
+            </td>
+          </tr>
+          {% endfor%}
+        </tbody>
+      </table>
+      <br />
+      <a href="/"><button>back</button></a>
+    </div>
+  </body>
+</html>

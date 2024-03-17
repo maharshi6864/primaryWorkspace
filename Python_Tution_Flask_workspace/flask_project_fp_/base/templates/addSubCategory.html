@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Add Sub Categories</h1>
+      <form action="insertSubCategory" method="post">
+        Enter Sub Category:
+        <input type="text" name="subCategoryName" required id="" /> <br /><br />
+        Enter Sub Category Description
+        <input type="text" name="subCategoryDes" required id="" /> <br /><br />
+        Select Category
+        <select name="categoryId" required>
+          <option disabled selected>select category</option>
+          {%for cat_obj in data %}
+          <option value="{{ cat_obj.category_id}}">
+            {{ cat_obj.category_name}}
+          </option>
+          {% endfor%}
+        </select>
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+
+      <br />
+      <a href="/">
+        <button>back</button>
+      </a>
+    </div>
+  </body>
+</html>

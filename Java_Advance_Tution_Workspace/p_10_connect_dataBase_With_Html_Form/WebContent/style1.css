@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    width: 400px;
+    padding: 46px;   
+    margin: 150px 0px 0px 0px  ;
+    background-color: #9da9a5;
+    border-radius: 10px;
+}
+
+.c1{
+    font-size: px;
+    max-width: 100px;
+    background-color: ;
+    border-radius:  0.375rem;
+    margin: 0px 10px ;
+    padding: 0px 0px 0px 0px;
+}
+.apply_box{
+    /* display: flex; */
+}
+.button{
+    justify-content: flex-end;
+}
+

@@ -1,0 +1,8 @@
+package com.society.services;
+
+import com.society.models.OwnerVo;
+
+public interface OwnerService {
+
+	void insertOwner(OwnerVo ownerVo);
+}

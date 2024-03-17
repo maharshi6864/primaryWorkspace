@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_DSA_Workspace.iml" filepath="$PROJECT_DIR$/.idea/Java_DSA_Workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_dsa_kunal/java_dsa_kunal.iml" filepath="$PROJECT_DIR$/java_dsa_kunal/java_dsa_kunal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rough/rough.iml" filepath="$PROJECT_DIR$/rough/rough.iml" />
+    </modules>
+  </component>
+</project>

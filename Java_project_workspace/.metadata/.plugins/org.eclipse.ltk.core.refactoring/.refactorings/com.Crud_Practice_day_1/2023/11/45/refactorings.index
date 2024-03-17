@@ -1,0 +1,9 @@
+1699599813523	Delete element
+1699600151027	Rename package 'com.model'
+1699600170803	Rename package 'com.controller'
+1699600190391	Rename package 'com.repository'
+1699600199911	Rename package 'com.service'
+1699618935831	Rename type 'Registration'
+1699618948030	Rename type 'Service'
+1699624433809	Rename compilation unit 'RegisterDao.java'
+1699624446633	Rename type 'RegisterDaoImp'

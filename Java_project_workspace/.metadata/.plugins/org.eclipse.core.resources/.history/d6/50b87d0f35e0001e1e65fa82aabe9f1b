@@ -1,0 +1,15 @@
+package com.society.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class SocietyController {
+
+	@GetMapping(value = "/validation")
+	public ModelAndView validation() {
+		return new ModelAndView("admin/validation");
+	}
+	
+}

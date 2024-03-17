@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Edit Product</title>
+    <style>
+      img {
+        height: 300px;
+        width: 300px;
+      }
+    </style>
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
+  <body>
+  <div>  <h2>Edit Product</h2>
+    <form action="updateProduct" enctype="multipart/form-data" method="post">
+      <h2>Add Product</h2>
+
+      <input type="hidden" name="productId" value="{{data[0].product_id}}" />
+     
+      Enter Category :
+      <select required
+      name="categoryId"
+      id="category"  onchange="getSubCategory()">
+        <option disabled selected>select category</option>
+        {%for icat in cat %}
+        <option value="{{ icat.category_id}}" {%  if icat.category_id==data[0].category_id %}selected{% endif %} />
+        {{ icat.category_name}}
+        </option>
+        {% endfor%}
+    </select>
+      <br /><br />
+      Enter Category :<select
+      type="text"
+      name="subCategoryId"
+        id="subcategory"
+        required
+      value="{{data[0].sub_category_id}}"
+      required
+    >
+      <option disabled selected>Select Sub Category</option>
+      {%for jsubcat in subcat %}
+      <option value="{{ jsubcat[0].sub_category_id}}" {%  if jsubcat[0].sub_category_id==data[0].sub_category_id %}selected{% endif %} />
+      {{ jsubcat[0].sub_category_name}}
+      </option>
+      {% endfor%}
+    </select>
+    <br><br>
+      Enter Product Name :
+      <input
+        type="text"
+        name="productName"
+        value="{{data[0].product_name}}"
+        required
+      />
+      <br /><br />
+      Enter Product Description :
+      <input
+        type="text"
+        name="productDescription"
+        value="{{data[0].product_description}}"
+        required
+      />
+      <br /><br />
+      Enter Product Price :
+      <input
+        type="number"
+        name="productPrice"
+        value="{{data[0].product_price}}"
+        required
+      />
+      <br /><br />
+      Enter Product Quantity :
+      <input
+        type="number"
+        name="productQuantity"
+        value="{{data[0].product_quantity}}"
+        required
+      />
+      <br /><br />
+      Product Image: <br />
+      <img src="{{data[0].product_image_path}}" alt="" />
+      <br /><br />
+      Upload Changed Product Image :
+      <input type="file" accept="image/jpeg,image/png" name="productImage" />
+      <br /><br />
+      <button type="submit">Update Product</button>
+    </form>
+    <br>
+    <a href="/searchProduct">
+      <button>back</button>
+    </a></div>
+    <script src="../static/javascripts/ajaxmethod.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.cont{
+  height: 100% !important;
+  background-color: antiquewhite;
+}
+.list-head-border{
+  /* border: 2px solid black; */
+  /* border-bottom: none; */
+}
+
+.todo-list-area{
+  padding: 10%;
+}
+
+.form-input{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+}

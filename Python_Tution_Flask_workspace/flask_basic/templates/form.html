@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Enter User Details</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conatiner">
+      <form action="result" method="post">
+        Username: <input type="text" name="fn" /> <br /><br />
+        Lastname: <input type="text" name="ln" /> <br /><br />
+        Username: <input type="text" name="user" /> <br /><br />
+        Password:<input type="text" name="pass" /> <br /><br />
+        Gender : male
+        <input type="radio" name="gen" value="male" /> female<input
+          type="radio"
+          name="gen"
+          value="female"
+        />
+        <br /><br />
+
+        Hobbies: cricket<input type="checkbox" name="hob" value="cricket" />
+
+        eating: <input type="checkbox" name="hob" value="eating" />
+
+        coding :<input type="checkbox" name="hob" value="coding" /> <br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

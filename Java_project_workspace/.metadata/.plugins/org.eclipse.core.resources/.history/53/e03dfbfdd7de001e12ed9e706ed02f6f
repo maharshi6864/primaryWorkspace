@@ -1,0 +1,8 @@
+package com.prac_spring_boot.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class LoginController {
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>View Sub Category</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Edit Sub Category</h1>
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Sub Category</th>
+            <th>Sub Category Description</th>
+            <th>Category</th>
+            <th>Category Description</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%for cat_obj in data %}
+          <tr>
+            <td>{{ cat_obj[0].sub_category_name}}</td>
+            <td>{{ cat_obj[0].sub_category_description}}</td>
+            <td>{{ cat_obj[1].category_name}}</td>
+            <td>{{ cat_obj[1].category_description}}</td>
+            <td>
+              <a href="deleteSubCategory?id={{cat_obj[0].sub_category_id}}">
+                <button>Delete</button>
+              </a>
+              <br />
+              <a href="editSubCategory?id={{cat_obj[0].sub_category_id}}">
+                <button>Edit</button>
+              </a>
+            </td>
+          </tr>
+          {% endfor%}
+        </tbody>
+      </table>
+      <br />
+      <a href="/">
+        <button>back</button>
+      </a>
+    </div>
+  </body>
+</html>
