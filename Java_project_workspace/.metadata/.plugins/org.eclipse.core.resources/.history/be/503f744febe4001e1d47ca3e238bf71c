@@ -8,12 +8,11 @@ import org.springframework.web.servlet.ModelAndView;
 public class Controller {
 
     @GetMapping(value = "/")
-    public ModelAndView index() {
-        return new ModelAndView("redirect:/index");
+    public ModelAndView helloWorld() {
+        return new ModelAndView("admin/index");
     }
-    
     @GetMapping(value = "/index")
-    public ModelAndView dashBoard() {
+    public ModelAndView helloWorld() {
         return new ModelAndView("admin/index");
     }
 
