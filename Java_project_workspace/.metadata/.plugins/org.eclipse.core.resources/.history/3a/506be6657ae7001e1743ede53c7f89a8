@@ -1,0 +1,14 @@
+package com.society.services;
+
+import java.util.List;
+
+import com.society.models.LoginVo;
+
+
+public interface LoginService {
+
+	public void insertLogin(LoginVo loginVO);
+
+	public  LoginVo findById(int id);
+
+}

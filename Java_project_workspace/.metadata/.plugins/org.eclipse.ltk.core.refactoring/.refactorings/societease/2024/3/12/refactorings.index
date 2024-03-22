@@ -1,1 +1,4 @@
 1710767927310	Rename type 'BlockController'
+1711000639554	Move 'login.jsp' to 'view'
+1711000648723	Move 'register.jsp' to 'view'
+1711003344592	Delete element

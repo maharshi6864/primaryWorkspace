@@ -1,0 +1,13 @@
+package com.project.service;
+
+import java.util.List;
+
+import com.project.model.LoginVo;
+
+public interface LoginService {
+
+	public void insertLogin(LoginVo loginVO);
+
+	public List<LoginVo> searchLoginID(String loginService);
+
+}

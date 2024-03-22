@@ -1,9 +1,0 @@
-package com.society.models;
-
-import org.springframework.boot.autoconfigure.domain.Entity;
-
-@Entity
-
-public class SocietyVo {
-
-}

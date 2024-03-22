@@ -1,0 +1,32 @@
+package com.project.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.project.dao.LoginDAO;
+import com.project.model.LoginVo;
+
+@Service
+public class LoginServiceImpl implements LoginService {
+
+	@Autowired
+	private LoginDAO loginDAO;
+
+	@Transactional
+	public void insertLogin(LoginVo loginVO) {
+		// TODO Auto-generated method stub
+		loginDAO.insertLogin(loginVO);
+	}
+
+	@Transactional
+	public List<LoginVo> searchLoginID(String loginService) {
+		// TODO Auto-generated method stub
+		@SuppressWarnings("unchecked")
+		List<LoginVo> ls = loginDAO.searchLoginID(loginService);
+		return ls;
+	}
+
+}

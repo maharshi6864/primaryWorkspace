@@ -1,0 +1,14 @@
+package com.society.services;
+
+import com.society.models.MemberVo;
+
+import java.util.List;
+
+public interface MemberService {
+
+    void addMembers(int ownerId,String []memberName,String []memberEmail,String []memberPhoneNo);
+
+    List<MemberVo> findMembers(int ownerId);
+
+    void deleteMember(int id);
+}

@@ -1,0 +1,12 @@
+package com.society.repository;
+
+import java.util.List;
+
+
+public interface LoginDAO {
+
+	public void insertLogin(LoginVo loginVO);
+
+	public List searchLoginID(String loginService);
+
+}

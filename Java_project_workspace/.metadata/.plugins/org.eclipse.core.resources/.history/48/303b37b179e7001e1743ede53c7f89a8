@@ -1,0 +1,49 @@
+package com.society.services;
+
+import com.society.models.MemberVo;
+import com.society.models.OwnerVo;
+import com.society.repository.MemberDao;
+import com.society.repository.MemberDaoImp;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
+@Service
+@Transactional
+public class MemberServiceImp implements MemberService {
+
+    @Autowired
+    private MemberDao memberDao;
+
+    @Override
+    public void addMembers(int ownerId, String[] memberName, String[] memberEmail, String[] memberPhoneNo) {
+
+        for (int index = 0; index < memberName.length; index++) {
+            OwnerVo ownerVo = new OwnerVo();
+            MemberVo memberVo = new MemberVo();
+
+            ownerVo.setId(ownerId);
+            memberVo.setMemberName(memberName[index]);
+            memberVo.setMemberEmail(memberEmail[index]);
+            memberVo.setMemberPhoneNo(memberPhoneNo[index]);
+            memberVo.setOwnerVo(ownerVo);
+
+            this.memberDao.insertMember(memberVo);
+        }
+    }
+
+    @Override
+    public List<MemberVo> findMembers(int ownerId) {
+        List<MemberVo> list=this.memberDao.findMembers(ownerId);
+        return list;
+    }
+
+    @Override
+    public void deleteMember(int id) {
+        this.memberDao.deleteMember(id);
+    }
+
+
+}
